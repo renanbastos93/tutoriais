@@ -1,4 +1,3 @@
-
 function listItems(items, pageActual, limitItems){
 	let result = [];
 	let totalPage = Math.ceil( items.length / limitItems );

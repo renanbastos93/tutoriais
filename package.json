@@ -1,0 +1,19 @@
+{
+  "name": "artigos-videos",
+  "version": "1.0.0",
+  "description": "Tutoriais por video aulas ou artigos",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/renanbastos93/tutoriais.git"
+  },
+  "author": "Renan Bastos",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/renanbastos93/tutoriais/issues"
+  },
+  "homepage": "https://github.com/renanbastos93/tutoriais.git#readme"
+}
