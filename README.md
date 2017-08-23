@@ -10,5 +10,8 @@
 2. [Usando promisify NodeJS 8](https://medium.com/@renanbastos93/usando-promisify-nodejs-8-94170ff19460)
 3. Como testar o tempo de execução do seu código com JS
 
+### Youtube
+1. Entendo pouco mais de JavaScript
+
 ## Dúvidas
 Abre uma **[ISSUE](https://github.com/renanbastos93/tutoriais/issues)**
