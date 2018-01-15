@@ -19,14 +19,15 @@
 ### Exemplos dos códigos
 
 #### Array Unique
- Você poderá passar por parametro, um array de números, textos e de objetos JSON.
+ Você poderá passar por parametro, um array de números, textos e de objetos JSON. O código está em `/src/arrayUnique.js`
 ```js
-rrayUnique([1,2,3,4,5,1,2,3,4,5,1,2,3,1]);
+arrayUnique([1,2,3,4,5,1,2,3,4,5,1,2,3,1]);
 // [1,2,3,4,5]
 
 arrayUnique(["javascript", "nodejs", "javascript"]);
 // ["javascript", "nodejs"]
 
+// Deve passar o array de JSON e dizer qual chave quer filtrar como unique
 arrayUnique([
     {
         name: "JavaScript",
