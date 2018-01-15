@@ -16,5 +16,44 @@
 ### Youtube
 1. Entendo pouco mais de JavaScript (nivelamento)
 
+### Exemplos dos códigos
+
+#### Array Unique
+ Você poderá passar por parametro, um array de números, textos e de objetos JSON.
+```js
+rrayUnique([1,2,3,4,5,1,2,3,4,5,1,2,3,1]);
+// [1,2,3,4,5]
+
+arrayUnique(["javascript", "nodejs", "javascript"]);
+// ["javascript", "nodejs"]
+
+arrayUnique([
+    {
+        name: "JavaScript",
+        url: "https://www.ecma-international.org/memento/TC39.htm"
+    },
+    {
+        name: "NodeJS",
+        url: "www.nodejs.org"
+    },
+    {
+        name: "NodeJS",
+        url: "www.nodejs.org"
+    },
+    {
+        name: "JavaScript",
+        url: "https://www.ecma-international.org/memento/TC39.htm"
+    }
+], "name");
+// [{
+//     name: "JavaScript",
+//     url: "https://www.ecma-international.org/memento/TC39.htm"
+// },
+// {
+//     name: "NodeJS",
+//     url: "www.nodejs.org"
+// }]
+```
+
 ## Dúvidas
 Abre uma **[ISSUE](https://github.com/renanbastos93/tutoriais/issues)**
